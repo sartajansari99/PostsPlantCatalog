@@ -110,3 +110,44 @@
   filter: blur(4px);
   pointer-events: none;
 }
+
+/* 📱 Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .admin-container {
+    padding: 1rem;
+    min-height: auto;
+  }
+
+  .admin-form {
+    width: 100%;
+    max-width: 350px;
+    padding: 1.5rem;
+    border-radius: 10px;
+  }
+
+  .admin-form h2 {
+    font-size: 1.4rem;
+  }
+
+  .admin-form input,
+  .admin-form select {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .admin-form button {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .success-msg,
+  .error-msg {
+    font-size: 0.8rem;
+  }
+
+  .loader {
+    width: 40px;
+    height: 40px;
+    border-width: 4px;
+  }
+}
