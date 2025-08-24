@@ -106,6 +106,9 @@ const PlantForm = () => {
             <option value="indoor">Indoor</option>
             <option value="outdoor">Outdoor</option>
             <option value="flowering">Flowering</option>
+            <option value="flowering">Decorative</option>
+            <option value="flowering">Medicinal</option>
+            <option value="flowering">Succulent</option>
           </select>
 
           <label>Stock</label>
